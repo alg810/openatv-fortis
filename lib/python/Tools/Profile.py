@@ -1,7 +1,8 @@
 # the implementation here is a bit crappy.
-import time
+import os, time
 from Directories import resolveFilename, SCOPE_CONFIG
 from boxbranding import getBoxType
+from enigma import evfd
 
 boxtype = getBoxType()
 
