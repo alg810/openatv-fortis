@@ -98,7 +98,7 @@ eDBoxLCD::eDBoxLCD()
 	}
 	if((strcmp(boxtype_name, "unknown") != 0))
 	{
-		if((strcmp(boxtype_name, "spark\n") == 0))
+		if((strcmp(boxtype_name, "hs7429\n") == 0))
 		{
 				if((fp_file = fopen("/proc/stb/fp/version", "r")) != NULL)
 				{

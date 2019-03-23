@@ -34,6 +34,7 @@ codec_data = {
 	19: "N/A 19",
 	20: "N/A 20",
 	21: "SPARK",
+	21: "HS7429",
 }
 
 def addspace(text):
